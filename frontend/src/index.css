@@ -1,0 +1,12 @@
+/* index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aplica el gradiente al fondo de toda la aplicación */
+body {
+  @apply bg-gradient-to-tr from-gray-100 via-slate-50 to-slate-100;
+  @apply font-sans;
+  /* Opcional: Evita que aparezca una barra de desplazamiento horizontal */
+}

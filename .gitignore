@@ -1,0 +1,73 @@
+# Node modules
+backend/node_modules
+frontend/node_modules
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+backend/.env
+frontend/.env
+backend/.env.local
+frontend/.env.local
+backend/.env.development.local
+frontend/.env.development.local
+backend/.env.test.local
+frontend/.env.test.local
+backend/.env.production.local
+frontend/.env.production.local
+
+# Build output
+frontend/build
+frontend/.cache
+
+# Dependencies
+package-lock.json
+yarn.lock
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# IDEs
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Backend build files
+backend/build
+
+# Frontend build files
+frontend/build
+
+# Coverage
+coverage/
+
+# Other
+*.pem
+*.p12
+*.key
+*.crt
+*.der
+*.csr
+*.jks
+*.p12
+
+# Compiled files
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.jar
+*.war
+
+# Operating System files
+Thumbs.db
