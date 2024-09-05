@@ -38,29 +38,4 @@ export const ListaTransaccionesApi = async({categoria, type, startDate , endDate
     return response.data
 }
 
-// // Actualizar
-// export const ActualizarCategoriaApi = async({name, type, id}) => {
-//   const response = await axios.put(`${BASE_URL}/categorias/actualizar/${id}`, {
-//       name,
-//       type,
-//        },{
-//           headers: {
-//               Authorization: `Bearer ${token}`
-//           }
-//        });
-//   // retorno de promesa 
-//   return response.data
-// }
-
-// // Borrar categoria
-// export const BorrarCategoriaApi = async(id) => {
-//   const response = await axios.delete(`${BASE_URL}/categorias/borrar/${id}`, 
-//       {
-//           headers: {
-//               Authorization: `Bearer ${token}`
-//           }
-//        });
-//   // retorno de promesa 
-//   return response.data
-// }
 

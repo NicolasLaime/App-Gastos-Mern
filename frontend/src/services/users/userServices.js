@@ -52,7 +52,7 @@ export const ActualizarUsuarioApi = async({ email, username}) => {
         email, username
     },{
         headers:{
-            Authorization: `bearer ${token}`
+            Authorization: `Bearer ${token}`
         }
     });
     // retorno de promesa 

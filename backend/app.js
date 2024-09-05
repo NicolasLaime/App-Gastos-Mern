@@ -18,7 +18,9 @@ mongoose
 
 // cors 
 const corsOptions = {
-    origin:['http://localhost:5173']
+    origin:['https://app-gastos-mern.vercel.app', // URL de tu frontend en Vercel
+        'https://app-gastos-mern.onrender.com', // URL de tu backend en Render
+        'http://localhost:8000',] // Localhost para desarrollo]
 };
 app.use(cors(corsOptions))
 
